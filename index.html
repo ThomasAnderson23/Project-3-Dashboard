@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="heart"></ion-icon></span>
+              <span class="title" style="font-size: larger;">The Wellness Project</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="clipboard"></ion-icon></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="fitness"></ion-icon></span>
+              <span class="title">Actividad Física</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="nutrition"></ion-icon></span>
+              <span class="title">Nutrición</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="people"></ion-icon></span>
+              <span class="title">Psicoterapia</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="stopwatch"></ion-icon></span>
+              <span class="title">Meditación</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><ion-icon name="help"></ion-icon></span>
+              <span class="title">Ayuda</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+<main>
+<div>
+  <p><h1 class="users">Nutrición <ion-icon name="nutrition"></ion-icon></h1></p>
+  <p><h3 class="area"> CONTROL PESO Y HÁBITOS</p>
+  <p><h4 class="area">Noviembre 2022</h4></p>
+
+</div>
+
+<div>
+  <div class="cardBox1">
+    <div class="card">
+      <div class="numbers">100%</div>
+      <div class="cardName">INGRESO CON NUTRICIONISTA</div>
+      <div class="iconBx"><ion-icon name="copy"></ion-icon></div>
+    </div>
+
+    <div class="card">
+      <div class="numbers">73%</div>
+      <div class="cardName">ADHERENCIA A CONTROLES</div>
+      <div class="iconBx"><ion-icon name="done-all"></ion-icon></div>
+    </div>
+
+    <div class="card">
+      <div class="numbers">61%</div>
+      <div class="cardName">MULTIDISCIPLINARIO</div>
+      <div class="iconBx"><ion-icon name="contacts"></ion-icon></div>
+    </div>
+  </div>
+</div>
+
+<div class="cardBox2">
+      <canvas id="myChart"></canvas>
+</div>
+
+    
+  </main>  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js" type="module"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+}
+
+.navigation
+{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #546bab;
+    border-left: 10px solid #bea9de;
+    transition: 0.5s;
+}
+
+.navigation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li
+{
+    position: relative;
+    width: 87%;
+    list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+.navigation ul li:hover
+{
+    background-color: white;
+    pointer-events: none;
+}
+
+.navigation ul li:nth-child(1)
+{
+    margin-bottom: 40px;
+}
+
+.navigation ul li a
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li:hover a{
+    color: #546bab;
+}
+
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .icon ion-icon{
+    font-size: 1.75em;
+    align-self: center;
+}
+
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+}
+
+.users{
+    text-align: end;
+    padding-top: 15px;
+    margin-right: 50px;
+    color:#546bab;
+}
+
+.area{
+    margin-right: 50px;
+    font-weight: lighter;
+    text-align: end;
+    color: #87889c;
+}
+
+.cardBox1{
+    position: relative;
+    margin-left: 330px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.card{
+    position: relative;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    margin: 15px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.numbers{
+    position: relative;
+    font-weight: 500;
+    font-size: 3em;
+    color: #546bab;
+    text-align: center;
+}
+
+.cardName{
+    color: #87889c;
+    text-align: center;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.iconBx{
+    color: #87889c;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.cardBox2{
+    margin-left: 330px;
+    padding-top: 40px;
+}
+
