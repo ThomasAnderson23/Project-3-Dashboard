@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "project-rod-ellie",
+  "version": "1.1.0",
+  "description": "This project is a joint dashboard between Ellie and Rodrigo, students of the UDD Fullstack Development Bootcamp.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "chart.js": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasAnderson23/Project-3-Dashboard.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ThomasAnderson23/Project-3-Dashboard/issues"
+  },
+  "homepage": "https://github.com/ThomasAnderson23/Project-3-Dashboard#readme"
+}
