@@ -1,1 +1,3 @@
 # Project-3-Dashboard
+
+This project is the third app created for UDD's Fullstack Development Bootcamp program. As a group, Ellieth and Rodrigo managed to deploy a dashboard with a chart by consuming an open API. The project was created under a Node JS environment and was aided by global libraries such as Chart.js, Axios and nodemon as a development dependency. The UI follows the idea of a nutritional app were you can see the weight of different users. This was the first time a collaborative repository was built by the 2 students and the final merge was made on Saturday at noon. Hope you like it!
