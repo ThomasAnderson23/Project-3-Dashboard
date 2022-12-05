@@ -1,11 +1,14 @@
-let age = [], names = [], weight = []; 
- 
+import getData from './getData.js';
+
 async function ageChart() {
-  await getData();
+  let people = await getData();
 
-const ctx = document.getElementById('myChart').getContext('2d');
+  const ctx = document.getElementById('myChart').getContext('2d');
+  let age = people.map(x => x.age);
+  let weight = people.map(x => x.weight);
+  let names = people.map(x => x.fullName);
 
-const chart = new Chart(ctx, {
+  const chart = new Chart(ctx, {
     type: 'bar',
         data: {
         labels: names,
@@ -24,17 +27,7 @@ const chart = new Chart(ctx, {
       }
       ]
     },
-})}
+  }
+)}
 
-ageChart()
-
-async  function getData() {
-  const response = await axios.get('https://dummyjson.com/users');
-  const data = await response.data;
-  console.log(data);
-
-  age = data.users.map(x => x.age);
-  names = data.users.map(x => x.firstName + x.lastName);
-  weight = data.users.map(x => x.weight);
-  
-}
+ageChart();
