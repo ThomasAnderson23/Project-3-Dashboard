@@ -1,7 +1,5 @@
 # Project-3-Dashboard
 
-Certainly! Here's a professional README.md code for a Dashboard App built using Node.js and leveraging global libraries such as Chart.js, Axios, and nodemon as a development dependency, with advanced styles:
-
 # Dashboard App
 
 Welcome to our Dashboard App! This application was built using Node.js and utilizes Chart.js, Axios, and nodemon as development dependencies. With our application, you can easily generate charts by consuming open APIs.
